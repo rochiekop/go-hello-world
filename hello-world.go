@@ -1,5 +1,5 @@
 package gohelloworld
 
-func HelloWorld() string {
-	return "Hello.."
+func HelloWorld(name string) string {
+	return "Hello World, Welcome" + name +" to Golang Programming Language"
 }
